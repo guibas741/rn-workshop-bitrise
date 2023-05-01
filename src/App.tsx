@@ -1,8 +1,8 @@
-import React, { useCallback, useState } from 'react';
-import { SafeAreaView, StyleSheet } from 'react-native';
-import { maxLives, maxQuestions } from './config';
-import { useQuiz } from './utils';
-import { Game, EndGame } from './screens';
+import React, { useCallback, useState } from "react";
+import { SafeAreaView, StyleSheet } from "react-native";
+import { maxLives, maxQuestions } from "./config";
+import { EndGame, Game } from "./screens";
+import { useQuiz } from "./utils";
 
 export default function App() {
   const { questions, reload, isLoading } = useQuiz();
@@ -54,6 +54,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'lightblue',
-  },
+    backgroundColor: "lightblue"
+  }
 });
