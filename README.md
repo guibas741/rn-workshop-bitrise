@@ -4,6 +4,8 @@ This repository is a sample application created for the workshop about using Rea
 
 [Event description](https://benestudio.co/workshops/ci-cd-workshop-react-native-automated-tests/)
 
+
+#Test
 ## Development
 
 This project uses `yarn` and is written in Typescript
